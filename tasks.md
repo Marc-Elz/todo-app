@@ -81,3 +81,20 @@
 - Controleer na elke verwijdering dat het aantal `<li>`-elementen met 1 afneemt
 - Controleer dat de lijst leeg is (0 `<li>`-elementen) na alle 3 verwijderingen
 - Controleer dat de teller verborgen is als de lijst leeg is
+
+## 7. Styling
+
+✅ **Verwijder Vite template styles uit `style.css`**
+Vervang de opinionated Vite-startersstijlen door een minimale CSS reset.
+
+✅ **Definieer CSS design tokens**
+Stel CSS custom properties in voor kleuren, spacing en typografie als fundament voor de rest van de styling.
+
+✅ **Style de app-layout in `App.vue`**
+Centreer de app op de pagina met een passende max-width, achtergrond en globale typografie.
+
+✅ **Verbeter de `TodoList.vue` styling**
+Geef het invoerformulier, de koptekst en de teller een verzorgde uitstraling met scoped CSS.
+
+✅ **Verbeter de `TodoItem.vue` styling**
+Verbeter witruimte, typografie en hover-states van elk todo-item met scoped CSS.

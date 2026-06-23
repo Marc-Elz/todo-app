@@ -17,19 +17,28 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: var(--space-md) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+span {
+  color: var(--color-text-strong);
 }
 
 button {
-  background-color: #e53e3e;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  padding: 2px 8px;
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-xs) var(--space-sm);
+  color: var(--color-text);
+  font-size: inherit;
+  font-family: inherit;
   cursor: pointer;
-  font-size: 0.8rem;
+  transition: border-color 0.15s, color 0.15s;
 }
 
 button:hover {
-  background-color: #c53030;
+  border-color: #e53e3e;
+  color: #e53e3e;
 }
 </style>
