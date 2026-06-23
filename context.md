@@ -21,3 +21,6 @@ Vue 3 todo component met add/delete functionaliteit en LocalStorage persistence.
 - Geen `any` — strict TypeScript door de hele codebase
 - Gebruik `computed()` voor afgeleide state (bv. gefilterde of getelde todos)
 - Componenten klein houden: logica in composables als het > ~60 regels wordt
+
+## Testing
+- Vitest + jsdom; `Date.now()` als todo-id vereist `vi.spyOn(Date, 'now')` bij synchrone aanroepen in tests
